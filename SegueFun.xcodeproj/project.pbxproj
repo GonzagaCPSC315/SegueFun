@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		AE2ED19F252D2E9F0027B097 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2ED19E252D2E9F0027B097 /* AppDelegate.swift */; };
 		AE2ED1A1252D2E9F0027B097 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2ED1A0252D2E9F0027B097 /* SceneDelegate.swift */; };
-		AE2ED1A3252D2E9F0027B097 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2ED1A2252D2E9F0027B097 /* ViewController.swift */; };
+		AE2ED1A3252D2E9F0027B097 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2ED1A2252D2E9F0027B097 /* BlueViewController.swift */; };
 		AE2ED1A6252D2E9F0027B097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2ED1A4252D2E9F0027B097 /* Main.storyboard */; };
 		AE2ED1A8252D2EA10027B097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2ED1A7252D2EA10027B097 /* Assets.xcassets */; };
 		AE2ED1AB252D2EA10027B097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2ED1A9252D2EA10027B097 /* LaunchScreen.storyboard */; };
+		AE2ED1B3252D2FBB0027B097 /* PinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2ED1B2252D2FBB0027B097 /* PinkViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE2ED19B252D2E9F0027B097 /* SegueFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegueFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2ED19E252D2E9F0027B097 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE2ED1A0252D2E9F0027B097 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE2ED1A2252D2E9F0027B097 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE2ED1A2252D2E9F0027B097 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 		AE2ED1A5252D2E9F0027B097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE2ED1A7252D2EA10027B097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE2ED1AA252D2EA10027B097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE2ED1AC252D2EA10027B097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE2ED1B2252D2FBB0027B097 /* PinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				AE2ED19E252D2E9F0027B097 /* AppDelegate.swift */,
 				AE2ED1A0252D2E9F0027B097 /* SceneDelegate.swift */,
-				AE2ED1A2252D2E9F0027B097 /* ViewController.swift */,
+				AE2ED1A2252D2E9F0027B097 /* BlueViewController.swift */,
 				AE2ED1A4252D2E9F0027B097 /* Main.storyboard */,
 				AE2ED1A7252D2EA10027B097 /* Assets.xcassets */,
 				AE2ED1A9252D2EA10027B097 /* LaunchScreen.storyboard */,
 				AE2ED1AC252D2EA10027B097 /* Info.plist */,
+				AE2ED1B2252D2FBB0027B097 /* PinkViewController.swift */,
 			);
 			path = SegueFun;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE2ED1A3252D2E9F0027B097 /* ViewController.swift in Sources */,
+				AE2ED1B3252D2FBB0027B097 /* PinkViewController.swift in Sources */,
+				AE2ED1A3252D2E9F0027B097 /* BlueViewController.swift in Sources */,
 				AE2ED19F252D2E9F0027B097 /* AppDelegate.swift in Sources */,
 				AE2ED1A1252D2E9F0027B097 /* SceneDelegate.swift in Sources */,
 			);

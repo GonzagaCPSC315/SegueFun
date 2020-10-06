@@ -8,13 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class BlueViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func unwindToBlueVC(segue: UIStoryboardSegue) {
+        print("unwinding to the blue VC")
+    }
 
 }
 
